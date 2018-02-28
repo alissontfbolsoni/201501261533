@@ -2,8 +2,6 @@ import getopt
 import sys
 import time
 import random
-
-
 def print_board(board):
     board = ''.join(board)
     if len(board) == 9:
